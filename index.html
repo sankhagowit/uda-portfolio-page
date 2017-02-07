@@ -26,14 +26,18 @@
         <h1 class="my-name">Bobby Sankhagowit</h1>
         <h4>Front-End Ninja</h4>
       </div>
-      <!-- Need a horizontal rule somewhere in here to separate the sections -->
     </header>
 
     <hr class="header-break">
 
     <div class="row">
       <div class="col-md-12">
-        <img class="img-responsive" src="images/DSC00204.jpg">
+        <picture class="img-responsive center-block">
+          <source media="(min-width: 800px)" srcset="images/black-tusk-2880_large_2x.jpg 2x, images/black-tusk-1440_large_1x_medium_2x.jpg 1x">
+          <source media="(min-width: 500px)" srcset="images/black-tusk-1440_large_1x_medium_2x.jpg 2x, images/black-tusk-764_medium_1x_small_2x.jpg 1x">
+          <source media="(max-width: 450px)" srcset="images/black-tusk-764_medium_1x_small_2x.jpg 2x, images/black-tusk-382_small_1x.jpg 1x">
+          <img class="img-responsive" src="images/black-tusk-382_small_1x.jpg" alt="Black tusk in whistler canada">
+        </picture>
       </div>
     </div>
     <div class="row">
@@ -43,17 +47,32 @@
     </div>
     <div class="row">
       <section class="col-sm-4 text-center">
-        <img class="img-responsive" src="images/code.png" data-toggle="modal" data-target="#project1">
+        <picture class="img-responsive center-block">
+          <source media="(min-width: 800px)" srcset="images/htmlcode-780medium_1x_small_2x.png 2x, images/htmlcode-382_small_1x.png 1x"/>
+          <source media="(min-width: 500px)" srcset="images/htmlcode-1000_medium_2x.png 2x, images/htmlcode-780medium_1x_small_2x.png 1x"/>
+          <source media="(max-width: 450px)" srcset="images/htmlcode-780medium_1x_small_2x.png 2x, images/htmlcode-382_small_1x.png 1x"/>
+          <img class="img-responsive" src="images/htmlcode-382_small_1x.png" data-toggle="modal" data-target="#project1" alt="code screenshot from html">
+        </picture>
         <h3 class="text-uppercase">Front End Web Dev</h3>
         <p><a href="https://github.com/sankhagowit/uda-animal-trading-card">Link to project</a></p>
       </section>
       <section class="col-sm-4 text-center">
-        <img class="img-responsive" src="images/python.png" data-toggle="modal" data-target="#project2">
+        <picture class="img-responsive center-block">
+          <source media="(min-width: 800px)" srcset="images/python-780medium_1x_small_2x.png 2x, images/python-382_small_1x.png 1x">
+          <source media="(min-width: 500px)" srcset="images/python-1000_medium_2x.png 2x, images/python-780medium_1x_small_2x.png 1x">
+          <source media="(max-width: 450px)" srcset="images/python-780medium_1x_small_2x.png 2x, images/python-382_small_1x.png 1x">
+          <img class="img-responsive" src="images/python-382_small_1x.png" data-toggle="modal" data-target="#project2" alt="Code screenshot from python">
+        </picture>
         <h3 class="text-uppercase">Full Stack Web Dev</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </section>
       <section class="col-sm-4 text-center">
-        <img class="img-responsive" src="images/rstudio.png" data-toggle="modal" data-target="#project3">
+        <picture class="img-responsive center-block">
+          <source media="(min-width: 800px)" srcset="images/rstudio-780medium_1x_small_2x.png 2x, images/rstudio-382_small_1x.png 1x">
+          <source media="(min-width: 500px)" srcset="images/rstudio-1000_medium_2x.png 2x, images/rstudio-780medium_1x_small_2x.png 1x">
+          <source media="(max-width: 450px)" srcset="images/rstudio-780medium_1x_small_2x.png 2x, images/rstudio-382_small_1x.png 1x">
+          <img class="img-responsive" src="images/rstudio-382_small_1x.png" data-toggle="modal" data-target="#project3" alt="Code screenshot from Rstudio">
+        </picture>
         <h3 class="text-uppercase">Other Programming</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </section>
@@ -68,10 +87,15 @@
                   <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="images/code.png">
-                    <p>
-                      This is my first Udacity Nanodegree. I learned a tremendous amount about HTML, CSS, Javascript, and how to make fantastic websites. I started down this path because I realized that the manner in which I experience the world through the internet is vastly different than the way in which gigantic old established corporations can view themselves, and functional front end could make  or break the best back end.
-                    </p>
+                <picture class="img-responsive center-block">
+                  <source media="(min-width: 800px)" srcset="images/htmlcode-780medium_1x_small_2x.png 2x, images/htmlcode-382_small_1x.png 1x">
+                  <source media="(min-width: 500px)" srcset="images/htmlcode-1000_medium_2x.png 2x, images/htmlcode-780medium_1x_small_2x.png 1x">
+                  <source media="(max-width: 450px)" srcset="images/htmlcode-780medium_1x_small_2x.png 2x, images/htmlcode-382_small_1x.png 1x">
+                  <img class="img-responsive" src="images/htmlcode-382_small_1x.png" data-toggle="modal" data-target="#project1" alt="code screenshot from html">
+                </picture>
+                <p>
+                  This is my first Udacity Nanodegree. I learned a tremendous amount about HTML, CSS, Javascript, and how to make fantastic websites. I started down this path because I realized that the manner in which I experience the world through the internet is vastly different than the way in which gigantic old established corporations can view themselves, and functional front end could make  or break the best back end.
+                </p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -86,10 +110,15 @@
                   <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="images/python.png">
-                    <p>
-                      **COMING SOON!! Knowledge to be gained from Udacity Full Stack Web Development Nanodegree. I am targeting completion by the end of March (optimistic estimation).
-                    </p>
+                <picture class="img-responsive center-block">
+                  <source media="(min-width: 800px)" srcset="images/python-780medium_1x_small_2x.png 2x, images/python-382_small_1x.png 1x">
+                  <source media="(min-width: 500px)" srcset="images/python-1000_medium_2x.png 2x, images/python-780medium_1x_small_2x.png 1x">
+                  <source media="(max-width: 450px)" srcset="images/python-780medium_1x_small_2x.png 2x, images/python-382_small_1x.png 1x">
+                  <img class="img-responsive" src="images/python-382_small_1x.png" data-toggle="modal" data-target="#project2" alt="Code screenshot from python">
+                </picture>
+                <p>
+                  **COMING SOON!! Knowledge to be gained from Udacity Full Stack Web Development Nanodegree. I am targeting completion by the end of March (optimistic estimation).
+                </p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -104,10 +133,15 @@
                   <h4 class="modal-title" id="myModalLabel">Other Programming</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="images/rstudio.png">
-                  <p>
-                    I also have experience progamming in R, MATLAB, python, and C++ from my undergraduate and gradute studies. I thoroughly enjoy solving challenging technical problems involving staistics and mathematics. I enjoy automating these solutions with scalable programs even more.
-                  </p>
+                <picture class="img-responsive center-block">
+                  <source media="(min-width: 800px)" srcset="images/rstudio-780medium_1x_small_2x.png 2x, images/rstudio-382_small_1x.png 1x">
+                  <source media="(min-width: 500px)" srcset="images/rstudio-1000_medium_2x.png 2x, images/rstudio-780medium_1x_small_2x.png 1x">
+                  <source media="(max-width: 450px)" srcset="images/rstudio-780medium_1x_small_2x.png 2x, images/rstudio-382_small_1x.png 1x">
+                  <img class="img-responsive" src="images/rstudio-382_small_1x.png" data-toggle="modal" data-target="#project3" alt="Code screenshot from Rstudio">
+                </picture>
+                <p>
+                  I also have experience progamming in R, MATLAB, python, and C++ from my undergraduate and gradute studies. I thoroughly enjoy solving challenging technical problems involving staistics and mathematics. I enjoy automating these solutions with scalable programs even more.
+                </p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
