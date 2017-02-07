@@ -4,9 +4,8 @@
 
 .my-name {
   color: #2d3c49;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
-  padding-left: 0;
+  font-size: 40px;
 }
 
 .feat-work {
@@ -19,6 +18,25 @@
   color: #7d97ad;
 }
  .logo {
-   height: 98px;
+   /*height: 98px;*/
    padding-right: 0;
- }
+   padding-top: 20px;
+}
+
+ .st0 {
+   fill:#02b3e4;
+}
+
+.name-container {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 450px){
+  .my-name {
+    font-size: 28px;
+  }
+  #Layer_1 {
+    height: 75px;
+    width: 75px;
+  }
+}
