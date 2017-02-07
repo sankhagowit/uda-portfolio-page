@@ -25,7 +25,7 @@
 }
 
  .st0 {
-   fill:#02b3e4;
+   fill:#02B3E4;
 }
 
 .name-container {
@@ -35,10 +35,10 @@
   #Layer_1 {
     height: 75px;
     width: 75px;
-  }
 }
 
 @media screen and (max-width: 450px){
   .my-name {
     font-size: 28px;
   }
+}
