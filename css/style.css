@@ -22,9 +22,3 @@
    height: 98px;
    padding-right: 0;
  }
-
- @media screen and (max-width: 550px) {
-   .logo {
-     height: 69px;
-   }
- }
