@@ -7,49 +7,49 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Bobby's Portfolio</title>
 </head>
 <body>
   <div class="container">
     <header class="row">
-      <div class="col-md-6">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 31" alt="Udacity">
-          <g fill="none" fill-rule="evenodd">
-            <path id="mark" fill="#02B3E4" d="M29 .1l-9 4.7v14.9c0 .6 0 1.3-.2 1.9-.1.6-.3 1.2-.5 1.7-.1.1-.1.3-.2.4-.3 0-2.5-.7-3.5-1.4-.4-.3-.8-.6-1.2-1-.4-.4-.7-.8-1-1.2-.3-.4-.6-.9-.8-1.4-.2-.5-.4-1-.5-1.6-.1-.5-.1-1.1-.1-1.6V1.2L10 0 0 5.9v13.7C0 25.9 5.1 31 11.3 31c2.1 0 4-.5 5.7-1.5l8.4-4.8c3.3-1.7 5.6-5.2 5.6-9.1V1.3L29 .1zM17.9 26.2c-.9.9-1.6 1.4-2.6 1.9-.6.2-1.3.5-1.9.7-.6.1-1.2.2-1.8.2-.6 0-1.6-.1-2.2-.2-.6-.1-1.2-.3-1.7-.5s-1.1-.5-1.6-.9c-1.3-.9-1.9-1.7-2.5-2.5-.3-.5-.6-1-.9-1.6-.2-.6-.4-1.1-.5-1.7-.2-.7-.2-1.4-.2-2V7.1l8-4.7v13.1c0 5 3.7 9.1 8.4 10.1-.2.2-.3.4-.5.6zm11-9c-.1.5-.3 1-.5 1.5s-.6 1.2-1 1.7c-.6.7-1.2 1.2-2.7 2.1-1.3.7-2.4.9-3.1 1.1.5-1.2.5-2.5.5-3.9L22 6l7-3.7v13.3c0 .5 0 1.1-.1 1.6z"></path>
-          </g>
-        </svg>
+      <div class="col-xs-3">
+        <img class="img-responsive logo" src="images/logo.png" alt="Udacity Logo">
       </div>
-      <div class="col-md-6 text-right text-uppercase my-name">
-        <h1>Bobby Sankhagowit</h1>
-        <h3>Front-End Ninja</h3>
+      <div class="col-xs-9 text-right text-uppercase">
+        <h1 class="my-name">Bobby Sankhagowit</h1>
+        <h4>Front-End Ninja</h4>
       </div>
       <!-- Need a horizontal rule somewhere in here to separate the sections -->
     </header>
+
+    <hr class="header-break">
+
     <div class="row">
       <div class="col-md-12">
-        <img class="img-responsive" src="http://placehold.it/1140x350">
+        <img class="img-responsive" src="images/DSC00204.jpg">
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h2>Featured Work</h2>
+        <h2 class="feat-work">Featured Work</h2>
       </div>
     </div>
     <div class="row">
       <section class="col-md-4 text-center">
-        <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1">
-        <h3>Front End Web Development</h3>
+        <img class="img-responsive" src="images/code.png" data-toggle="modal" data-target="#project1">
+        <h3 class="text-uppercase">Front End Web Dev</h3>
         <p><a href="https://github.com/sankhagowit/uda-animal-trading-card">Link to project</a></p>
       </section>
       <section class="col-md-4 text-center">
-        <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project2">
-        <h3>Full Stack Web Development</h3>
+        <img class="img-responsive" src="images/python.png" data-toggle="modal" data-target="#project2">
+        <h3 class="text-uppercase">Full Stack Web Dev</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </section>
       <section class="col-md-4 text-center">
-        <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project3">
-        <h3>Other Hacks</h3>
+        <img class="img-responsive" src="images/rstudio.png" data-toggle="modal" data-target="#project3">
+        <h3 class="text-uppercase">Other Programming</h3>
         <p><a href="http://github.com/">Link to project</a></p>
       </section>
     </div>
@@ -63,8 +63,10 @@
                   <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="./bootstrap-prestructure_files/555x300">
-                  This was my first project in this class. I learned a lot about HTML and CSS.
+                  <img class="img-responsive" src="images/code.png">
+                    <p>
+                      This is my first Udacity Nanodegree. I learned a tremendous amount about HTML, CSS, Javascript, and how to make fantastic websites. I started down this path because I realized that the manner in which I experience the world through the internet is vastly different than the way in which gigantic old established corporations can view themselves, and functional front end could make  or break the best back end.
+                    </p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -79,8 +81,10 @@
                   <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="./bootstrap-prestructure_files/555x300">
-                  This was my second project in this class. I learned a lot about HTML and CSS.
+                  <img class="img-responsive" src="images/python.png">
+                    <p>
+                      **COMING SOON!! Knowledge to be gained from Udacity Full Stack Web Development Nanodegree. I am targeting completion by the end of March (optimistic estimation).
+                    </p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -92,11 +96,13 @@
       <div class="modal-dialog">
           <div class="modal-content">
               <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                  <h4 class="modal-title" id="myModalLabel">Other Programming</h4>
               </div>
               <div class="modal-body">
-                  <img class="img-responsive" src="./bootstrap-prestructure_files/555x300">
-                  This was my third project in this class. I learned a lot about HTML and CSS.
+                  <img class="img-responsive" src="images/rstudio.png">
+                  <p>
+                    I also have experience progamming in R, MATLAB, python, and C++ from my undergraduate and gradute studies. I thoroughly enjoy solving challenging technical problems involving staistics and mathematics. I enjoy automating these solutions with scalable programs even more.
+                  </p>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
